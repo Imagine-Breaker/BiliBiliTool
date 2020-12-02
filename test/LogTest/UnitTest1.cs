@@ -21,9 +21,6 @@ namespace LogTest
             logger.LogInformation("testInfo");
             logger.LogError("testError");
 
-            logger.LogDebug(null);
-            logger.LogDebug("123{0}{1}", null,"haha");
-
             Task.Delay(3000);
         }
     }
